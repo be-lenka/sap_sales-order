@@ -407,7 +407,7 @@ class HeaderTextApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_Text';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_Text';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -778,7 +778,7 @@ class HeaderTextApi
         }
 
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_Text';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_Text';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1732,7 +1732,7 @@ class HeaderTextApi
         }
         
 
-        $resourcePath = '/A_SalesOrderText(SalesOrder='{SalesOrder}',Language='{Language}',LongTextID='{LongTextID}')';
+        $resourcePath = '/A_SalesOrderText(SalesOrder=\'{SalesOrder}\',Language=\'{Language}\',LongTextID=\'{LongTextID}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2086,7 +2086,7 @@ class HeaderTextApi
         
         
 
-        $resourcePath = '/A_SalesOrderText(SalesOrder='{SalesOrder}',Language='{Language}',LongTextID='{LongTextID}')';
+        $resourcePath = '/A_SalesOrderText(SalesOrder=\'{SalesOrder}\',Language=\'{Language}\',LongTextID=\'{LongTextID}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2403,7 +2403,7 @@ class HeaderTextApi
         }
 
 
-        $resourcePath = '/A_SalesOrderText(SalesOrder='{SalesOrder}',Language='{Language}',LongTextID='{LongTextID}')';
+        $resourcePath = '/A_SalesOrderText(SalesOrder=\'{SalesOrder}\',Language=\'{Language}\',LongTextID=\'{LongTextID}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2764,7 +2764,7 @@ class HeaderTextApi
         
         
 
-        $resourcePath = '/A_SalesOrderText(SalesOrder='{SalesOrder}',Language='{Language}',LongTextID='{LongTextID}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderText(SalesOrder=\'{SalesOrder}\',Language=\'{Language}\',LongTextID=\'{LongTextID}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

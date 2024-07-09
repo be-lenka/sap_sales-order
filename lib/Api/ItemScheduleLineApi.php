@@ -413,7 +413,7 @@ class ItemScheduleLineApi
         
         
 
-        $resourcePath = '/A_SalesOrderItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}')/to_ScheduleLine';
+        $resourcePath = '/A_SalesOrderItem(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\')/to_ScheduleLine';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -798,7 +798,7 @@ class ItemScheduleLineApi
         }
 
 
-        $resourcePath = '/A_SalesOrderItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}')/to_ScheduleLine';
+        $resourcePath = '/A_SalesOrderItem(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\')/to_ScheduleLine';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1745,7 +1745,7 @@ class ItemScheduleLineApi
         }
         
 
-        $resourcePath = '/A_SalesOrderScheduleLine(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',ScheduleLine='{ScheduleLine}')';
+        $resourcePath = '/A_SalesOrderScheduleLine(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',ScheduleLine=\'{ScheduleLine}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2093,7 +2093,7 @@ class ItemScheduleLineApi
         
         
 
-        $resourcePath = '/A_SalesOrderScheduleLine(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',ScheduleLine='{ScheduleLine}')';
+        $resourcePath = '/A_SalesOrderScheduleLine(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',ScheduleLine=\'{ScheduleLine}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2401,7 +2401,7 @@ class ItemScheduleLineApi
         }
 
 
-        $resourcePath = '/A_SalesOrderScheduleLine(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',ScheduleLine='{ScheduleLine}')';
+        $resourcePath = '/A_SalesOrderScheduleLine(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',ScheduleLine=\'{ScheduleLine}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

@@ -992,7 +992,7 @@ class HeaderRelatedObjectApi
         }
         
 
-        $resourcePath = '/A_SalesOrderRelatedObject(SalesOrder='{SalesOrder}',SDDocRelatedObjectSequenceNmbr='{SDDocRelatedObjectSequenceNmbr}')';
+        $resourcePath = '/A_SalesOrderRelatedObject(SalesOrder=\'{SalesOrder}\',SDDocRelatedObjectSequenceNmbr=\'{SDDocRelatedObjectSequenceNmbr}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1323,7 +1323,7 @@ class HeaderRelatedObjectApi
         
         
 
-        $resourcePath = '/A_SalesOrderRelatedObject(SalesOrder='{SalesOrder}',SDDocRelatedObjectSequenceNmbr='{SDDocRelatedObjectSequenceNmbr}')';
+        $resourcePath = '/A_SalesOrderRelatedObject(SalesOrder=\'{SalesOrder}\',SDDocRelatedObjectSequenceNmbr=\'{SDDocRelatedObjectSequenceNmbr}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1672,7 +1672,7 @@ class HeaderRelatedObjectApi
         
         
 
-        $resourcePath = '/A_SalesOrderRelatedObject(SalesOrder='{SalesOrder}',SDDocRelatedObjectSequenceNmbr='{SDDocRelatedObjectSequenceNmbr}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderRelatedObject(SalesOrder=\'{SalesOrder}\',SDDocRelatedObjectSequenceNmbr=\'{SDDocRelatedObjectSequenceNmbr}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2042,7 +2042,7 @@ class HeaderRelatedObjectApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_RelatedObject';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_RelatedObject';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2413,7 +2413,7 @@ class HeaderRelatedObjectApi
         }
 
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_RelatedObject';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_RelatedObject';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

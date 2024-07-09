@@ -755,7 +755,7 @@ class HeaderPrecedingProcessFlowApi
         
         
 
-        $resourcePath = '/A_SalesOrderPrecdgProcFlow(SalesOrder='{SalesOrder}',DocRelationshipUUID=guid'{DocRelationshipUUID}')';
+        $resourcePath = '/A_SalesOrderPrecdgProcFlow(SalesOrder=\'{SalesOrder}\',DocRelationshipUUID=guid\'{DocRelationshipUUID}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1101,7 +1101,7 @@ class HeaderPrecedingProcessFlowApi
         
         
 
-        $resourcePath = '/A_SalesOrderPrecdgProcFlow(SalesOrder='{SalesOrder}',DocRelationshipUUID=guid'{DocRelationshipUUID}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderPrecdgProcFlow(SalesOrder=\'{SalesOrder}\',DocRelationshipUUID=guid\'{DocRelationshipUUID}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1471,7 +1471,7 @@ class HeaderPrecedingProcessFlowApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_PrecedingProcFlowDoc';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_PrecedingProcFlowDoc';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

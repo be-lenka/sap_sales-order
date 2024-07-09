@@ -416,7 +416,7 @@ class HeaderPartnerAddressApi
         
         
 
-        $resourcePath = '/A_SalesOrderHeaderPartner(SalesOrder='{SalesOrder}',PartnerFunction='{PartnerFunction}')/to_Address';
+        $resourcePath = '/A_SalesOrderHeaderPartner(SalesOrder=\'{SalesOrder}\',PartnerFunction=\'{PartnerFunction}\')/to_Address';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1209,7 +1209,7 @@ class HeaderPartnerAddressApi
         
         
 
-        $resourcePath = '/A_SalesOrderPartnerAddress(SalesOrder='{SalesOrder}',PartnerFunction='{PartnerFunction}',AddressRepresentationCode='{AddressRepresentationCode}')';
+        $resourcePath = '/A_SalesOrderPartnerAddress(SalesOrder=\'{SalesOrder}\',PartnerFunction=\'{PartnerFunction}\',AddressRepresentationCode=\'{AddressRepresentationCode}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1526,7 +1526,7 @@ class HeaderPartnerAddressApi
         }
 
 
-        $resourcePath = '/A_SalesOrderPartnerAddress(SalesOrder='{SalesOrder}',PartnerFunction='{PartnerFunction}',AddressRepresentationCode='{AddressRepresentationCode}')';
+        $resourcePath = '/A_SalesOrderPartnerAddress(SalesOrder=\'{SalesOrder}\',PartnerFunction=\'{PartnerFunction}\',AddressRepresentationCode=\'{AddressRepresentationCode}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1887,7 +1887,7 @@ class HeaderPartnerAddressApi
         
         
 
-        $resourcePath = '/A_SalesOrderPartnerAddress(SalesOrder='{SalesOrder}',PartnerFunction='{PartnerFunction}',AddressRepresentationCode='{AddressRepresentationCode}')/to_Partner';
+        $resourcePath = '/A_SalesOrderPartnerAddress(SalesOrder=\'{SalesOrder}\',PartnerFunction=\'{PartnerFunction}\',AddressRepresentationCode=\'{AddressRepresentationCode}\')/to_Partner';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2259,7 +2259,7 @@ class HeaderPartnerAddressApi
         
         
 
-        $resourcePath = '/A_SalesOrderPartnerAddress(SalesOrder='{SalesOrder}',PartnerFunction='{PartnerFunction}',AddressRepresentationCode='{AddressRepresentationCode}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderPartnerAddress(SalesOrder=\'{SalesOrder}\',PartnerFunction=\'{PartnerFunction}\',AddressRepresentationCode=\'{AddressRepresentationCode}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

@@ -785,7 +785,7 @@ class HeaderBillingPlanApi
         
         
 
-        $resourcePath = '/A_SalesOrderBillingPlanItem(SalesOrder='{SalesOrder}',BillingPlan='{BillingPlan}',BillingPlanItem='{BillingPlanItem}')/to_BillingPlan';
+        $resourcePath = '/A_SalesOrderBillingPlanItem(SalesOrder=\'{SalesOrder}\',BillingPlan=\'{BillingPlan}\',BillingPlanItem=\'{BillingPlanItem}\')/to_BillingPlan';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1142,7 +1142,7 @@ class HeaderBillingPlanApi
         
         
 
-        $resourcePath = '/A_SalesOrderBillingPlan(SalesOrder='{SalesOrder}',BillingPlan='{BillingPlan}')';
+        $resourcePath = '/A_SalesOrderBillingPlan(SalesOrder=\'{SalesOrder}\',BillingPlan=\'{BillingPlan}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1436,7 +1436,7 @@ class HeaderBillingPlanApi
         }
 
 
-        $resourcePath = '/A_SalesOrderBillingPlan(SalesOrder='{SalesOrder}',BillingPlan='{BillingPlan}')';
+        $resourcePath = '/A_SalesOrderBillingPlan(SalesOrder=\'{SalesOrder}\',BillingPlan=\'{BillingPlan}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1810,7 +1810,7 @@ class HeaderBillingPlanApi
         
         
 
-        $resourcePath = '/A_SalesOrderBillingPlan(SalesOrder='{SalesOrder}',BillingPlan='{BillingPlan}')/to_BillingPlanItem';
+        $resourcePath = '/A_SalesOrderBillingPlan(SalesOrder=\'{SalesOrder}\',BillingPlan=\'{BillingPlan}\')/to_BillingPlanItem';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2204,7 +2204,7 @@ class HeaderBillingPlanApi
         }
 
 
-        $resourcePath = '/A_SalesOrderBillingPlan(SalesOrder='{SalesOrder}',BillingPlan='{BillingPlan}')/to_BillingPlanItem';
+        $resourcePath = '/A_SalesOrderBillingPlan(SalesOrder=\'{SalesOrder}\',BillingPlan=\'{BillingPlan}\')/to_BillingPlanItem';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2542,7 +2542,7 @@ class HeaderBillingPlanApi
         
         
 
-        $resourcePath = '/A_SalesOrderBillingPlan(SalesOrder='{SalesOrder}',BillingPlan='{BillingPlan}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderBillingPlan(SalesOrder=\'{SalesOrder}\',BillingPlan=\'{BillingPlan}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2876,7 +2876,7 @@ class HeaderBillingPlanApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_BillingPlan';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_BillingPlan';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

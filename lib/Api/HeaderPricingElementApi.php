@@ -1010,7 +1010,7 @@ class HeaderPricingElementApi
         }
         
 
-        $resourcePath = '/A_SalesOrderHeaderPrElement(SalesOrder='{SalesOrder}',PricingProcedureStep='{PricingProcedureStep}',PricingProcedureCounter='{PricingProcedureCounter}')';
+        $resourcePath = '/A_SalesOrderHeaderPrElement(SalesOrder=\'{SalesOrder}\',PricingProcedureStep=\'{PricingProcedureStep}\',PricingProcedureCounter=\'{PricingProcedureCounter}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1364,7 +1364,7 @@ class HeaderPricingElementApi
         
         
 
-        $resourcePath = '/A_SalesOrderHeaderPrElement(SalesOrder='{SalesOrder}',PricingProcedureStep='{PricingProcedureStep}',PricingProcedureCounter='{PricingProcedureCounter}')';
+        $resourcePath = '/A_SalesOrderHeaderPrElement(SalesOrder=\'{SalesOrder}\',PricingProcedureStep=\'{PricingProcedureStep}\',PricingProcedureCounter=\'{PricingProcedureCounter}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1681,7 +1681,7 @@ class HeaderPricingElementApi
         }
 
 
-        $resourcePath = '/A_SalesOrderHeaderPrElement(SalesOrder='{SalesOrder}',PricingProcedureStep='{PricingProcedureStep}',PricingProcedureCounter='{PricingProcedureCounter}')';
+        $resourcePath = '/A_SalesOrderHeaderPrElement(SalesOrder=\'{SalesOrder}\',PricingProcedureStep=\'{PricingProcedureStep}\',PricingProcedureCounter=\'{PricingProcedureCounter}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2042,7 +2042,7 @@ class HeaderPricingElementApi
         
         
 
-        $resourcePath = '/A_SalesOrderHeaderPrElement(SalesOrder='{SalesOrder}',PricingProcedureStep='{PricingProcedureStep}',PricingProcedureCounter='{PricingProcedureCounter}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderHeaderPrElement(SalesOrder=\'{SalesOrder}\',PricingProcedureStep=\'{PricingProcedureStep}\',PricingProcedureCounter=\'{PricingProcedureCounter}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2420,7 +2420,7 @@ class HeaderPricingElementApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_PricingElement';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_PricingElement';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2791,7 +2791,7 @@ class HeaderPricingElementApi
         }
 
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_PricingElement';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_PricingElement';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

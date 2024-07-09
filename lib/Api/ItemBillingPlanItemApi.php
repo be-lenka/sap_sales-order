@@ -443,7 +443,7 @@ class ItemBillingPlanItemApi
         
         
 
-        $resourcePath = '/A_SalesOrderItemBillingPlan(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',BillingPlan='{BillingPlan}')/to_BillingPlanItem';
+        $resourcePath = '/A_SalesOrderItemBillingPlan(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',BillingPlan=\'{BillingPlan}\')/to_BillingPlanItem';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -860,7 +860,7 @@ class ItemBillingPlanItemApi
         }
 
 
-        $resourcePath = '/A_SalesOrderItemBillingPlan(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',BillingPlan='{BillingPlan}')/to_BillingPlanItem';
+        $resourcePath = '/A_SalesOrderItemBillingPlan(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',BillingPlan=\'{BillingPlan}\')/to_BillingPlanItem';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1845,7 +1845,7 @@ class ItemBillingPlanItemApi
         }
         
 
-        $resourcePath = '/A_SlsOrderItemBillingPlanItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',BillingPlan='{BillingPlan}',BillingPlanItem='{BillingPlanItem}')';
+        $resourcePath = '/A_SlsOrderItemBillingPlanItem(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',BillingPlan=\'{BillingPlan}\',BillingPlanItem=\'{BillingPlanItem}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2222,7 +2222,7 @@ class ItemBillingPlanItemApi
         
         
 
-        $resourcePath = '/A_SlsOrderItemBillingPlanItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',BillingPlan='{BillingPlan}',BillingPlanItem='{BillingPlanItem}')';
+        $resourcePath = '/A_SlsOrderItemBillingPlanItem(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',BillingPlan=\'{BillingPlan}\',BillingPlanItem=\'{BillingPlanItem}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2562,7 +2562,7 @@ class ItemBillingPlanItemApi
         }
 
 
-        $resourcePath = '/A_SlsOrderItemBillingPlanItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',BillingPlan='{BillingPlan}',BillingPlanItem='{BillingPlanItem}')';
+        $resourcePath = '/A_SlsOrderItemBillingPlanItem(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',BillingPlan=\'{BillingPlan}\',BillingPlanItem=\'{BillingPlanItem}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2946,7 +2946,7 @@ class ItemBillingPlanItemApi
         
         
 
-        $resourcePath = '/A_SlsOrderItemBillingPlanItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',BillingPlan='{BillingPlan}',BillingPlanItem='{BillingPlanItem}')/to_BillingPlan';
+        $resourcePath = '/A_SlsOrderItemBillingPlanItem(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',BillingPlan=\'{BillingPlan}\',BillingPlanItem=\'{BillingPlanItem}\')/to_BillingPlan';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -3341,7 +3341,7 @@ class ItemBillingPlanItemApi
         
         
 
-        $resourcePath = '/A_SlsOrderItemBillingPlanItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',BillingPlan='{BillingPlan}',BillingPlanItem='{BillingPlanItem}')/to_SalesOrder';
+        $resourcePath = '/A_SlsOrderItemBillingPlanItem(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',BillingPlan=\'{BillingPlan}\',BillingPlanItem=\'{BillingPlanItem}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -3736,7 +3736,7 @@ class ItemBillingPlanItemApi
         
         
 
-        $resourcePath = '/A_SlsOrderItemBillingPlanItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',BillingPlan='{BillingPlan}',BillingPlanItem='{BillingPlanItem}')/to_SalesOrderItem';
+        $resourcePath = '/A_SlsOrderItemBillingPlanItem(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',BillingPlan=\'{BillingPlan}\',BillingPlanItem=\'{BillingPlanItem}\')/to_SalesOrderItem';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

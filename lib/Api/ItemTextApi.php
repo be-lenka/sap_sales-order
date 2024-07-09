@@ -425,7 +425,7 @@ class ItemTextApi
         
         
 
-        $resourcePath = '/A_SalesOrderItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}')/to_Text';
+        $resourcePath = '/A_SalesOrderItem(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\')/to_Text';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -819,7 +819,7 @@ class ItemTextApi
         }
 
 
-        $resourcePath = '/A_SalesOrderItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}')/to_Text';
+        $resourcePath = '/A_SalesOrderItem(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\')/to_Text';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1796,7 +1796,7 @@ class ItemTextApi
         }
         
 
-        $resourcePath = '/A_SalesOrderItemText(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',Language='{Language}',LongTextID='{LongTextID}')';
+        $resourcePath = '/A_SalesOrderItemText(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',Language=\'{Language}\',LongTextID=\'{LongTextID}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2173,7 +2173,7 @@ class ItemTextApi
         
         
 
-        $resourcePath = '/A_SalesOrderItemText(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',Language='{Language}',LongTextID='{LongTextID}')';
+        $resourcePath = '/A_SalesOrderItemText(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',Language=\'{Language}\',LongTextID=\'{LongTextID}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2513,7 +2513,7 @@ class ItemTextApi
         }
 
 
-        $resourcePath = '/A_SalesOrderItemText(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',Language='{Language}',LongTextID='{LongTextID}')';
+        $resourcePath = '/A_SalesOrderItemText(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',Language=\'{Language}\',LongTextID=\'{LongTextID}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2897,7 +2897,7 @@ class ItemTextApi
         
         
 
-        $resourcePath = '/A_SalesOrderItemText(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',Language='{Language}',LongTextID='{LongTextID}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderItemText(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',Language=\'{Language}\',LongTextID=\'{LongTextID}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -3292,7 +3292,7 @@ class ItemTextApi
         
         
 
-        $resourcePath = '/A_SalesOrderItemText(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',Language='{Language}',LongTextID='{LongTextID}')/to_SalesOrderItem';
+        $resourcePath = '/A_SalesOrderItemText(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',Language=\'{Language}\',LongTextID=\'{LongTextID}\')/to_SalesOrderItem';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

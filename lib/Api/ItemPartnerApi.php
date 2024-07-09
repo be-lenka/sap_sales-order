@@ -425,7 +425,7 @@ class ItemPartnerApi
         
         
 
-        $resourcePath = '/A_SalesOrderItemPartnerAddress(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',PartnerFunction='{PartnerFunction}',AddressRepresentationCode='{AddressRepresentationCode}')/to_Partner';
+        $resourcePath = '/A_SalesOrderItemPartnerAddress(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',PartnerFunction=\'{PartnerFunction}\',AddressRepresentationCode=\'{AddressRepresentationCode}\')/to_Partner';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1414,7 +1414,7 @@ class ItemPartnerApi
         }
         
 
-        $resourcePath = '/A_SalesOrderItemPartner(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',PartnerFunction='{PartnerFunction}')';
+        $resourcePath = '/A_SalesOrderItemPartner(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',PartnerFunction=\'{PartnerFunction}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1768,7 +1768,7 @@ class ItemPartnerApi
         
         
 
-        $resourcePath = '/A_SalesOrderItemPartner(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',PartnerFunction='{PartnerFunction}')';
+        $resourcePath = '/A_SalesOrderItemPartner(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',PartnerFunction=\'{PartnerFunction}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2085,7 +2085,7 @@ class ItemPartnerApi
         }
 
 
-        $resourcePath = '/A_SalesOrderItemPartner(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',PartnerFunction='{PartnerFunction}')';
+        $resourcePath = '/A_SalesOrderItemPartner(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',PartnerFunction=\'{PartnerFunction}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2482,7 +2482,7 @@ class ItemPartnerApi
         
         
 
-        $resourcePath = '/A_SalesOrderItemPartner(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',PartnerFunction='{PartnerFunction}')/to_Address';
+        $resourcePath = '/A_SalesOrderItemPartner(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',PartnerFunction=\'{PartnerFunction}\')/to_Address';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2899,7 +2899,7 @@ class ItemPartnerApi
         
         
 
-        $resourcePath = '/A_SalesOrderItemPartner(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',PartnerFunction='{PartnerFunction}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderItemPartner(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',PartnerFunction=\'{PartnerFunction}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -3271,7 +3271,7 @@ class ItemPartnerApi
         
         
 
-        $resourcePath = '/A_SalesOrderItemPartner(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',PartnerFunction='{PartnerFunction}')/to_SalesOrderItem';
+        $resourcePath = '/A_SalesOrderItemPartner(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',PartnerFunction=\'{PartnerFunction}\')/to_SalesOrderItem';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -3664,7 +3664,7 @@ class ItemPartnerApi
         
         
 
-        $resourcePath = '/A_SalesOrderItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}')/to_Partner';
+        $resourcePath = '/A_SalesOrderItem(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\')/to_Partner';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -4058,7 +4058,7 @@ class ItemPartnerApi
         }
 
 
-        $resourcePath = '/A_SalesOrderItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}')/to_Partner';
+        $resourcePath = '/A_SalesOrderItem(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\')/to_Partner';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

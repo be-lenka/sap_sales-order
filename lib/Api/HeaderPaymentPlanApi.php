@@ -407,7 +407,7 @@ class HeaderPaymentPlanApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_PaymentPlanItemDetails';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_PaymentPlanItemDetails';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -778,7 +778,7 @@ class HeaderPaymentPlanApi
         }
 
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_PaymentPlanItemDetails';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_PaymentPlanItemDetails';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1717,7 +1717,7 @@ class HeaderPaymentPlanApi
         }
         
 
-        $resourcePath = '/A_SlsOrdPaymentPlanItemDetails(SalesOrder='{SalesOrder}',PaymentPlanItem='{PaymentPlanItem}')';
+        $resourcePath = '/A_SlsOrdPaymentPlanItemDetails(SalesOrder=\'{SalesOrder}\',PaymentPlanItem=\'{PaymentPlanItem}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2048,7 +2048,7 @@ class HeaderPaymentPlanApi
         
         
 
-        $resourcePath = '/A_SlsOrdPaymentPlanItemDetails(SalesOrder='{SalesOrder}',PaymentPlanItem='{PaymentPlanItem}')';
+        $resourcePath = '/A_SlsOrdPaymentPlanItemDetails(SalesOrder=\'{SalesOrder}\',PaymentPlanItem=\'{PaymentPlanItem}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2342,7 +2342,7 @@ class HeaderPaymentPlanApi
         }
 
 
-        $resourcePath = '/A_SlsOrdPaymentPlanItemDetails(SalesOrder='{SalesOrder}',PaymentPlanItem='{PaymentPlanItem}')';
+        $resourcePath = '/A_SlsOrdPaymentPlanItemDetails(SalesOrder=\'{SalesOrder}\',PaymentPlanItem=\'{PaymentPlanItem}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2680,7 +2680,7 @@ class HeaderPaymentPlanApi
         
         
 
-        $resourcePath = '/A_SlsOrdPaymentPlanItemDetails(SalesOrder='{SalesOrder}',PaymentPlanItem='{PaymentPlanItem}')/to_SalesOrder';
+        $resourcePath = '/A_SlsOrdPaymentPlanItemDetails(SalesOrder=\'{SalesOrder}\',PaymentPlanItem=\'{PaymentPlanItem}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

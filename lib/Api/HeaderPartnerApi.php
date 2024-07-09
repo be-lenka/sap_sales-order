@@ -1001,7 +1001,7 @@ class HeaderPartnerApi
         }
         
 
-        $resourcePath = '/A_SalesOrderHeaderPartner(SalesOrder='{SalesOrder}',PartnerFunction='{PartnerFunction}')';
+        $resourcePath = '/A_SalesOrderHeaderPartner(SalesOrder=\'{SalesOrder}\',PartnerFunction=\'{PartnerFunction}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1332,7 +1332,7 @@ class HeaderPartnerApi
         
         
 
-        $resourcePath = '/A_SalesOrderHeaderPartner(SalesOrder='{SalesOrder}',PartnerFunction='{PartnerFunction}')';
+        $resourcePath = '/A_SalesOrderHeaderPartner(SalesOrder=\'{SalesOrder}\',PartnerFunction=\'{PartnerFunction}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1626,7 +1626,7 @@ class HeaderPartnerApi
         }
 
 
-        $resourcePath = '/A_SalesOrderHeaderPartner(SalesOrder='{SalesOrder}',PartnerFunction='{PartnerFunction}')';
+        $resourcePath = '/A_SalesOrderHeaderPartner(SalesOrder=\'{SalesOrder}\',PartnerFunction=\'{PartnerFunction}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2000,7 +2000,7 @@ class HeaderPartnerApi
         
         
 
-        $resourcePath = '/A_SalesOrderHeaderPartner(SalesOrder='{SalesOrder}',PartnerFunction='{PartnerFunction}')/to_Address';
+        $resourcePath = '/A_SalesOrderHeaderPartner(SalesOrder=\'{SalesOrder}\',PartnerFunction=\'{PartnerFunction}\')/to_Address';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2394,7 +2394,7 @@ class HeaderPartnerApi
         
         
 
-        $resourcePath = '/A_SalesOrderHeaderPartner(SalesOrder='{SalesOrder}',PartnerFunction='{PartnerFunction}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderHeaderPartner(SalesOrder=\'{SalesOrder}\',PartnerFunction=\'{PartnerFunction}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2758,7 +2758,7 @@ class HeaderPartnerApi
         
         
 
-        $resourcePath = '/A_SalesOrderPartnerAddress(SalesOrder='{SalesOrder}',PartnerFunction='{PartnerFunction}',AddressRepresentationCode='{AddressRepresentationCode}')/to_Partner';
+        $resourcePath = '/A_SalesOrderPartnerAddress(SalesOrder=\'{SalesOrder}\',PartnerFunction=\'{PartnerFunction}\',AddressRepresentationCode=\'{AddressRepresentationCode}\')/to_Partner';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -3136,7 +3136,7 @@ class HeaderPartnerApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_Partner';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_Partner';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -3507,7 +3507,7 @@ class HeaderPartnerApi
         }
 
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_Partner';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_Partner';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

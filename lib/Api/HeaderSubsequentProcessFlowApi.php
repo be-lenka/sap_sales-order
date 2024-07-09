@@ -395,7 +395,7 @@ class HeaderSubsequentProcessFlowApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_SubsequentProcFlowDoc';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_SubsequentProcFlowDoc';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1162,7 +1162,7 @@ class HeaderSubsequentProcessFlowApi
         
         
 
-        $resourcePath = '/A_SalesOrderSubsqntProcFlow(SalesOrder='{SalesOrder}',DocRelationshipUUID=guid'{DocRelationshipUUID}')';
+        $resourcePath = '/A_SalesOrderSubsqntProcFlow(SalesOrder=\'{SalesOrder}\',DocRelationshipUUID=guid\'{DocRelationshipUUID}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1508,7 +1508,7 @@ class HeaderSubsequentProcessFlowApi
         
         
 
-        $resourcePath = '/A_SalesOrderSubsqntProcFlow(SalesOrder='{SalesOrder}',DocRelationshipUUID=guid'{DocRelationshipUUID}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderSubsqntProcFlow(SalesOrder=\'{SalesOrder}\',DocRelationshipUUID=guid\'{DocRelationshipUUID}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];

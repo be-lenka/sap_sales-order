@@ -497,7 +497,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderBillingPlanItem(SalesOrder='{SalesOrder}',BillingPlan='{BillingPlan}',BillingPlanItem='{BillingPlanItem}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderBillingPlanItem(SalesOrder=\'{SalesOrder}\',BillingPlan=\'{BillingPlan}\',BillingPlanItem=\'{BillingPlanItem}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -854,7 +854,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderBillingPlan(SalesOrder='{SalesOrder}',BillingPlan='{BillingPlan}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderBillingPlan(SalesOrder=\'{SalesOrder}\',BillingPlan=\'{BillingPlan}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1587,7 +1587,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderHeaderPartner(SalesOrder='{SalesOrder}',PartnerFunction='{PartnerFunction}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderHeaderPartner(SalesOrder=\'{SalesOrder}\',PartnerFunction=\'{PartnerFunction}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -1951,7 +1951,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderHeaderPrElement(SalesOrder='{SalesOrder}',PricingProcedureStep='{PricingProcedureStep}',PricingProcedureCounter='{PricingProcedureCounter}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderHeaderPrElement(SalesOrder=\'{SalesOrder}\',PricingProcedureStep=\'{PricingProcedureStep}\',PricingProcedureCounter=\'{PricingProcedureCounter}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2323,7 +2323,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderItemBillingPlan(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',BillingPlan='{BillingPlan}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderItemBillingPlan(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',BillingPlan=\'{BillingPlan}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -2710,7 +2710,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderItemPartnerAddress(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',PartnerFunction='{PartnerFunction}',AddressRepresentationCode='{AddressRepresentationCode}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderItemPartnerAddress(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',PartnerFunction=\'{PartnerFunction}\',AddressRepresentationCode=\'{AddressRepresentationCode}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -3090,7 +3090,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderItemPartner(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',PartnerFunction='{PartnerFunction}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderItemPartner(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',PartnerFunction=\'{PartnerFunction}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -3477,7 +3477,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderItemPrElement(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',PricingProcedureStep='{PricingProcedureStep}',PricingProcedureCounter='{PricingProcedureCounter}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderItemPrElement(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',PricingProcedureStep=\'{PricingProcedureStep}\',PricingProcedureCounter=\'{PricingProcedureCounter}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -3857,7 +3857,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderItemRelatedObject(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',SDDocRelatedObjectSequenceNmbr='{SDDocRelatedObjectSequenceNmbr}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderItemRelatedObject(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',SDDocRelatedObjectSequenceNmbr=\'{SDDocRelatedObjectSequenceNmbr}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -4214,7 +4214,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderItem(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -4593,7 +4593,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderItemText(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',Language='{Language}',LongTextID='{LongTextID}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderItemText(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',Language=\'{Language}\',LongTextID=\'{LongTextID}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -4970,7 +4970,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderItmPrecdgProcFlow(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',DocRelationshipUUID=guid'{DocRelationshipUUID}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderItmPrecdgProcFlow(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',DocRelationshipUUID=guid\'{DocRelationshipUUID}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -5339,7 +5339,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderItmSubsqntProcFlow(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',DocRelationshipUUID=guid'{DocRelationshipUUID}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderItmSubsqntProcFlow(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',DocRelationshipUUID=guid\'{DocRelationshipUUID}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -5711,7 +5711,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderPartnerAddress(SalesOrder='{SalesOrder}',PartnerFunction='{PartnerFunction}',AddressRepresentationCode='{AddressRepresentationCode}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderPartnerAddress(SalesOrder=\'{SalesOrder}\',PartnerFunction=\'{PartnerFunction}\',AddressRepresentationCode=\'{AddressRepresentationCode}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -6357,7 +6357,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderPrecdgProcFlow(SalesOrder='{SalesOrder}',DocRelationshipUUID=guid'{DocRelationshipUUID}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderPrecdgProcFlow(SalesOrder=\'{SalesOrder}\',DocRelationshipUUID=guid\'{DocRelationshipUUID}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -6706,7 +6706,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderRelatedObject(SalesOrder='{SalesOrder}',SDDocRelatedObjectSequenceNmbr='{SDDocRelatedObjectSequenceNmbr}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderRelatedObject(SalesOrder=\'{SalesOrder}\',SDDocRelatedObjectSequenceNmbr=\'{SDDocRelatedObjectSequenceNmbr}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -6973,7 +6973,7 @@ class SalesOrderHeaderApi
         }
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -7281,7 +7281,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -7552,7 +7552,7 @@ class SalesOrderHeaderApi
         }
 
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -7867,7 +7867,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_BillingPlan';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_BillingPlan';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -8229,7 +8229,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_Item';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_Item';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -8600,7 +8600,7 @@ class SalesOrderHeaderApi
         }
 
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_Item';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_Item';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -8951,7 +8951,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_Partner';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_Partner';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -9322,7 +9322,7 @@ class SalesOrderHeaderApi
         }
 
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_Partner';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_Partner';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -9673,7 +9673,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_PaymentPlanItemDetails';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_PaymentPlanItemDetails';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -10044,7 +10044,7 @@ class SalesOrderHeaderApi
         }
 
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_PaymentPlanItemDetails';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_PaymentPlanItemDetails';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -10395,7 +10395,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_PrecedingProcFlowDoc';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_PrecedingProcFlowDoc';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -10802,7 +10802,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_PricingElement';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_PricingElement';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -11173,7 +11173,7 @@ class SalesOrderHeaderApi
         }
 
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_PricingElement';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_PricingElement';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -11524,7 +11524,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_RelatedObject';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_RelatedObject';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -11895,7 +11895,7 @@ class SalesOrderHeaderApi
         }
 
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_RelatedObject';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_RelatedObject';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -12246,7 +12246,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_SubsequentProcFlowDoc';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_SubsequentProcFlowDoc';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -12653,7 +12653,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_Text';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_Text';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -13024,7 +13024,7 @@ class SalesOrderHeaderApi
         }
 
 
-        $resourcePath = '/A_SalesOrder('{SalesOrder}')/to_Text';
+        $resourcePath = '/A_SalesOrder(\'{SalesOrder}\')/to_Text';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -13351,7 +13351,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderSubsqntProcFlow(SalesOrder='{SalesOrder}',DocRelationshipUUID=guid'{DocRelationshipUUID}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderSubsqntProcFlow(SalesOrder=\'{SalesOrder}\',DocRelationshipUUID=guid\'{DocRelationshipUUID}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -13715,7 +13715,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SalesOrderText(SalesOrder='{SalesOrder}',Language='{Language}',LongTextID='{LongTextID}')/to_SalesOrder';
+        $resourcePath = '/A_SalesOrderText(SalesOrder=\'{SalesOrder}\',Language=\'{Language}\',LongTextID=\'{LongTextID}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -14072,7 +14072,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SlsOrdPaymentPlanItemDetails(SalesOrder='{SalesOrder}',PaymentPlanItem='{PaymentPlanItem}')/to_SalesOrder';
+        $resourcePath = '/A_SlsOrdPaymentPlanItemDetails(SalesOrder=\'{SalesOrder}\',PaymentPlanItem=\'{PaymentPlanItem}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
@@ -14451,7 +14451,7 @@ class SalesOrderHeaderApi
         
         
 
-        $resourcePath = '/A_SlsOrderItemBillingPlanItem(SalesOrder='{SalesOrder}',SalesOrderItem='{SalesOrderItem}',BillingPlan='{BillingPlan}',BillingPlanItem='{BillingPlanItem}')/to_SalesOrder';
+        $resourcePath = '/A_SlsOrderItemBillingPlanItem(SalesOrder=\'{SalesOrder}\',SalesOrderItem=\'{SalesOrderItem}\',BillingPlan=\'{BillingPlan}\',BillingPlanItem=\'{BillingPlanItem}\')/to_SalesOrder';
         $formParams = [];
         $queryParams = [];
         $headerParams = [];
