@@ -31,5 +31,8 @@ do
     sed -i 's/\\GuzzleHttp\\Utils::jsonEncode/json_encode/g' "$file"
     echo "Replaced in: $file"
 done
+sed -i '/^\s*"php":/c\"php": ">=7.3",' composer.json
+sed -i '/^\s*"guzzlehttp\/guzzle":/c\"guzzlehttp\/guzzle": "^6.2 || ^7.0"' composer.json
+sed -i '/^\s*"guzzlehttp\/psr7":/c\ ' composer.json
 
 echo "Replacement complete."
